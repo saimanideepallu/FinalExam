@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package question3;
+
+/**
+ *
+ * @author S542406
+ */
+public class WideningCasting {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        int a = 7;   
+        long b = a;  
+        float c = b; 
+        double d = c;
+        System.out.println("int value "+a);  
+        System.out.println("long value "+b);  
+        System.out.println("float value "+c);
+        System.out.println("double value "+d);
+    }
+    
+}
